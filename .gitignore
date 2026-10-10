@@ -1,0 +1,26 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local settings
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Editor and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+
+# Note: hasil.csv and hasil.png are tracked outputs used by the project.
+# Review workflow dependencies and history before deciding whether to untrack them.
